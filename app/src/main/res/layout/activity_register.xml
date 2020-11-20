@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bg_splash"
+    tools:context=".RegisterActivity">
+    <ImageView
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center"
+        android:background="@drawable/lion"
+        android:layout_width="80dp"
+        android:layout_height="80dp"/>
+
+    <TextView
+        android:layout_marginTop="15dp"
+        android:textSize="18sp"
+        android:textColor="#ffffff"
+        android:gravity="center"
+        android:text="LİON'S APP"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_marginHorizontal="40dp"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <EditText
+                android:textColor="#ffffff"
+                android:layout_marginTop="20dp"
+                android:textColorHint="#ffffff"
+                android:gravity="center"
+                android:hint="NAME"
+                android:background="@drawable/style_edit_text"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"/>
+            <EditText
+                android:textColor="#ffffff"
+                android:layout_marginTop="5dp"
+                android:textColorHint="#ffffff"
+                android:gravity="center"
+                android:hint="SURNAME"
+                android:background="@drawable/style_edit_text"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"/>
+            <EditText
+                android:textColor="#ffffff"
+                android:layout_marginTop="5dp"
+                android:textColorHint="#ffffff"
+                android:gravity="center"
+                android:hint="SCHOOL"
+                android:background="@drawable/style_edit_text"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"/>
+            <EditText
+                android:textColor="#ffffff"
+                android:layout_marginTop="5dp"
+                android:textColorHint="#ffffff"
+                android:gravity="center"
+                android:hint="E-MAİL"
+                android:background="@drawable/style_edit_text"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"/>
+            <EditText
+                android:textColor="#ffffff"
+                android:layout_marginTop="5dp"
+                android:textColorHint="#ffffff"
+                android:gravity="center"
+                android:hint="PASSWORD"
+                android:background="@drawable/style_edit_text"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"/>
+
+
+            <RadioGroup
+                android:layout_marginTop="5dp"
+                android:layout_gravity="center"
+                android:orientation="horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:textColor="#ffffff"
+                    android:text="GENDER"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+                <RadioButton
+                    android:textColor="#74b9ff"
+                    android:text="MALE"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+                <RadioButton
+                    android:textColor="#fd79a8"
+                    android:text="FEMALE"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+            </RadioGroup>
+
+
+            <TextView
+                android:textColor="#ffffff"
+                android:gravity="center"
+                android:text="Date of Birth"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <NumberPicker
+                android:layout_gravity="center"
+                android:id="@+id/np"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+
+
+            <Spinner
+                android:id="@+id/spin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:textStyle="bold"
+                android:gravity="center"
+                android:textColor="@color/white"
+                android:text="SKILLS"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_weight="1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <CheckBox
+
+                        android:textColor="@color/white"
+                        android:text="C++"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"/>
+                    <CheckBox
+                        android:textColor="@color/white"
+                        android:text="C#"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"/>
+                    <CheckBox
+                        android:textColor="@color/white"
+                        android:text="PHP"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"/>
+                    <CheckBox
+                        android:textColor="@color/white"
+                        android:text="SQL"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"/>
+
+                </LinearLayout>
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_weight="1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <CheckBox
+                        android:textColor="@color/white"
+                        android:text="JAVA"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"/>
+                    <CheckBox
+                        android:textColor="@color/white"
+                        android:text="KOTLİN"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"/>
+                    <CheckBox
+                        android:textColor="@color/white"
+                        android:text="PYTHON"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"/>
+                    <CheckBox
+                        android:textColor="@color/white"
+                        android:text="R"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"/>
+
+                </LinearLayout>
+
+
+
+            </LinearLayout>
+
+            <Switch
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/white"
+                android:text="LOOK FOR A JOB"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"/>
+
+            <Button
+                android:id="@+id/btn_register"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/style_btn_login"
+                android:textColorHint="#ffffff"
+                android:gravity="center"
+                android:hint="REGİSTER"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"/>
+
+            <TextView
+                android:gravity="center"
+                android:layout_marginTop="60dp"
+                android:layout_marginBottom="20dp"
+                android:textColor="@color/white"
+                android:text="© 2020 AKALIN CORPS. All Rights Reserved."
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

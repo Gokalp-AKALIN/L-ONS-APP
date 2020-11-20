@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">SubuApp</string>
+
+    <string-array name="jobs">
+        <item>Developer</item>
+        <item>Sales Maneger</item>
+        <item>Teacher</item>
+        <item>Worker</item>
+        <item>Doctor</item>
+        <item>Engineer</item>
+        <item>Carpenter</item>
+    </string-array>
+</resources>
